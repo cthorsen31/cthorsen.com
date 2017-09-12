@@ -208,7 +208,11 @@ li {
 }
 
 .btn-primary {
-	background-color: #AF5500;
+	background-color: #E26E00;
 	color: #fff
+}
+
+.btn-primary:hover {
+	background-color: #AF550;
 }
 
