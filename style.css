@@ -102,6 +102,32 @@ body {
 	display: block
 }
 
+.about-content {
+}
+
+.column-2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.about-content p {
+    font-family: 'Advent Pro', sans-serif;
+	font-size: 23px;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: 500;
+	color: #333;
+    margin-top: .3em;
+}
+
+.about-content img {
+    display: block;
+    margin: 0 auto;
+}
+
 a {
 	color: #AF5500;
 	text-decoration: none
@@ -168,6 +194,12 @@ a {
 	animation-name: slideinright;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-name: slideinright
+}
+
+.profile-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
 
 
