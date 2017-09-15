@@ -102,8 +102,6 @@ body {
 	display: block
 }
 
-.about-content {
-}
 
 .column-2 {
     -webkit-column-count: 2;
@@ -267,7 +265,7 @@ i {
     display: -ms-flex;
 	display: -webkit-flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
 }
 
@@ -275,8 +273,16 @@ i {
     order:1; 
     flex-basis:100%; 
 }
-
 .col-right {
     order:2;
     flex-basis:100%;
+    margin-bottom: 20px;
+}
+
+.col-left p{
+    margin: .3em;
+}
+.col-right p{
+    margin: .3em;
+    
 }
