@@ -267,22 +267,31 @@ i {
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    margin-bottom: 10px;
 }
 
 .col-left {
     order:1; 
-    flex-basis:100%; 
+    flex-basis:100%;
+    margin-right: 5px;
+}
+
+.col-left img {
+    float: right;
+    margin-right: 5px;
 }
 .col-right {
     order:2;
     flex-basis:100%;
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .col-left p{
     margin: .3em;
+    text-align: right;
 }
 .col-right p{
     margin: .3em;
-    
+    text-align: left;
 }
