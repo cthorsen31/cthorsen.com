@@ -5,27 +5,33 @@
         <meta charset="UTF-8">
 <!--        <meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
         <link href=style.css rel=stylesheet media=screen>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Roboto|Advent+Pro' rel=stylesheet type=text/css>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans|Roboto|Advent+Pro" rel=stylesheet type=text/css>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     </head>
 <body>
     
-    <div class="back-btn">
-        <a class="btn btn-primary" href="index.html"> Back </a>
-    </div>
+        <!--<a class="btn btn-primary" href="index.html">Home</a>-->
+        <div class="contact-row" style="margin-bottom: 18px;">
+            <a class="btn btn-primary" href="index.html">Home</a>
+            <a class="btn btn-primary" href="#resume">Resume</a>
+            <a class="btn btn-primary" href="#education">Education</a>
+            <a class="btn btn-primary" href="#about">Personal</a>
+            <a class="btn btn-primary" href="#portfolio">Portfolio</a>
+            <a class="btn btn-primary" href="#contact">Contact</a>
+        </div>
     
         <!--Homepage Content-->
         <div class="about-content leftsidecontent">
-            <img src="http://projects.scpr.org/static-files/_v4/images/default_avatar.png" alt="Profile Image" style="height: 250px; width: 250px;">
+            <img src="images/cat.png" alt="Profile Image" style="height: 250px; width: 250px; border-radius: 50%;">
             <br>
             <div class="header center">CONNOR THORSEN</div>
-            <p class="narrow-p">Hi! My name is Connor Thorsen and I'm a 3rd year Computer Science Major at Rochester Institute of Technology.<br> I have a strong background in software engineering using Java and Python as well as a background in web development with HTML and CSS.<br> On this site you can find an up-to-date copy of my resume, projects I have been working on, and contact information for any job opportunities or any questions related to my projects.</p>
+            <p class="narrow-p">Hi! My name is Connor Thorsen and I'm a 3rd year Computer Science Major at Rochester Institute of Technology.<br> I have a strong background in software engineering as well as web development.<br> On this site you can find an up-to-date copy of my resume, projects I have been working on, and contact information for any job opportunities or any questions related to my projects.</p>
         </div>
         <div class="about-content"><img src="images/horizontal-bar.jpg" class="separator center" alt="bars"></div>
     
         
         <!--Resume Content-->
-        <div class="about-content rightcontent">
+        <div class="about-content rightcontent" id="resume">
             <div class="header center">RESUME</div>
             <div class="column-2">
                 <div class="col-left">
@@ -35,9 +41,9 @@
                     <p>June 2016 - August 2016</p>
                 </div>
                 <div class="col-right">
-                    <p>Did some cool stuff with the stuff and did really stuff.</p>
-                    <p>This is some fill stuff that'll get filled in later hopefully.</p>
-                    <p>Filler information that will become relevant later..</p>
+                    <p>Provided customer support by identifying customer needs.</p>
+                    <p>Received and stocked merchandise following store protocol.</p>
+                    <p>Maintained store inventory by utilizing the inventory management system.</p>
                 </div>
             </div>
             <div class="column-2">
@@ -48,9 +54,10 @@
                     <p>August 2013 - June 2015</p>
                 </div>
                 <div class="col-right">
-                    <p>Did some cool stuff with the stuff and did really stuff.</p>
-                    <p>This is some fill stuff that'll get filled in later hopefully.</p>
-                    <p>wjfajfhawjkw wrajf awfwafaw awfawfwafw wfaf wfaw w wffaw.</p>
+                    <p>Maintained and updated the library’s website.</p>
+                    <p>Assisted students in finding and accessing material within the library.</p>
+                    <p>Repaired computers, printers, and A/V equipment.</p>
+                    <p>Ordered and maintained sufficient inventory for the library.</p>
                 </div>
             </div>
             <div class="contact-row fadein"><a class="btn btn-primary" href="index.html"> Resume PDF </a></div><br>
@@ -59,7 +66,7 @@
 
 
         <!--Education Content-->
-        <div class="about-content leftsidecontent">
+        <div class="about-content leftsidecontent" id="education">
             <div class="header center">EDUCATION</div>
             <div class="column-2">
                 <div class="col-left">
@@ -68,9 +75,15 @@
                     <p>August 2015 - Present</p>
                 </div>
                 <div class="col-right">
-                    <p>Did some cool stuff with the stuff and did really stuff.</p>
-                    <p>This is some fill stuff that'll get filled in later hopefully.</p>
-                    <p>wjfajfhawjkw wrajf awfwafaw awfawfwafw wfaf wfaw w wffaw.</p>
+                    <p><strong>Relevant Courses</strong></p>
+                    <p>Computer Science I & II</p>
+                    <p>Mechanics of Programming</p>
+                    <p>Concepts of Parallel and Distributed Systems</p>
+                    <p>Introduction to Database Management</p>
+                    <p>Introduction to Software Engineering</p>
+                    <p>Web and Mobile I</p>
+                    <p>Computer Science Theory</p>
+                    <p>Discrete Mathematics</p>
                 </div>
             </div>
             <div class="column-2">
@@ -80,21 +93,31 @@
                     <p>August 2011 - May 2015</p>
                 </div>
                 <div class="col-right">
-                    <p>Did some cool stuff with the stuff and did really stuff.</p>
-                    <p>This is some fill stuff that'll get filled in later hopefully.</p>
-                    <p>wjfajfhawjkw wrajf awfwafaw awfawfwafw wfaf wfaw w wffaw.</p>
+                    <p><strong>Relevant Courses</strong></p>
+                    <p>Computer Networking Technology</p>
+                    <p>Computer Maintenance Technology</p>
+                    <p>Green Energy Technology</p>
+                    <p>Mechatronics and Robotics Technology</p>
+                    <p>Electronic Communications</p>
                 </div>
             </div>
             
         </div>
         <div class="about-content"><img src="images/horizontal-bar.jpg" class="separator center" alt="bars"></div>
+    
+        <div class="about-content rightcontent">
+            <div class="header center">PERSONAL</div>
+            <p class="narrow-p">Hi! My name is Connor Thorsen and I'm a 3rd year Computer Science Major at Rochester Institute of Technology.<br> I have a strong background in software engineering as well as web development.<br> On this site you can find an up-to-date copy of my resume, projects I have been working on, and contact information for any job opportunities or any questions related to my projects.</p>
+        </div>
+        <div class="about-content"><img src="images/horizontal-bar.jpg" class="separator center" alt="bars"></div>
+    
         
         <!--Portfolio Content-->
-        <div class="about-content rightcontent">
+        <div class="about-content leftsidecontent" id="portfolio">
             <div class="header center">PORTFOLIO</div>
             <div class="column-2">
                 <div class="col-left">
-                    <img src="https://via.placeholder.com/350x150" alt="Project 1 Image">
+                    <img src="https://via.placeholder.com/350x150" alt="Project 1 Image" style="width: 350px; height 150px;">
                 </div>
                 <div class="col-right">
                     <p><strong>Project 1</strong></p>
@@ -127,7 +150,7 @@
         <div class="about-content"><img src="images/horizontal-bar.jpg" class="separator center" alt="bars"></div>
         
         <!--Contact Information Content-->
-        <div class="about-content leftsidecontent">
+        <div class="about-content rightcontent" id="contact">
             <div class="header center">CONTACT</div>
             <div class="contact-row">
                 <a href="https://www.linkedin.com/in/cthorsen31/" target="_blank"><i class="zmdi zmdi-linkedin-box zmdi-hc-3x"></i></a>

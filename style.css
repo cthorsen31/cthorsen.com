@@ -92,6 +92,7 @@ body {
 	flex-basis: 0
 }
 
+
 .center-content {
 	flex: 1;
 	display: block
@@ -228,6 +229,7 @@ li {
 	background-color: #E6E6E6;
 	border-radius: 2px
 }
+
 
 .btn:hover,
 .btn:focus {
