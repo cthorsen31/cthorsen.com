@@ -1,2 +1,2 @@
 # Connor Thorsen Portfolio Site
-Connect via: www.cthorsen.me
+Connect via: www.cthorsen.com
