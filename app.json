@@ -1,21 +1,10 @@
 {
-  "name": "portfolio",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-
-  ],
+  "name": "Start on Heroku: Testing",
+  "description": "test",
   "environments": {
     "test": {
       "scripts": {
-        "test-setup": "echo 'wow'",
+        "test-setup": "echo wow"
       }
     }
   }
