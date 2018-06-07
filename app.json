@@ -1,8 +1,6 @@
 {
   "name": "portfolio",
   "scripts": {
-    "test-setup": "echo "wow" ",
-    "test-setup": "echo pwd"
   },
   "env": {
   },
@@ -13,5 +11,12 @@
   ],
   "buildpacks": [
 
-  ]
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "echo 'wow'",
+      }
+    }
+  }
 }
