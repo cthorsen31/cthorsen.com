@@ -4,7 +4,8 @@
   "environments": {
     "test": {
       "scripts": {
-        "test-setup": "echo wow"
+        "test-setup": "echo wow",
+        "tests": "echo tests"
       }
     }
   }
