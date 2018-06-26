@@ -1,0 +1,12 @@
+{
+  "name": "Start on Heroku: Testing",
+  "description": "test",
+  "environments": {
+    "test": {
+      "scripts": {
+        "postdeploy": "echo wow",
+        "tests": "npm test"
+      }
+    }
+  }
+}
